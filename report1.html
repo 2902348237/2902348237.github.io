@@ -2,120 +2,109 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>检测报告详情</title>
 <style>
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, SimHei, sans-serif;
-    font-size: 18px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 19px;
 }
 body{
-    background: #fff;
-    padding: 40px 24px;
+    background: #ffffff;
+    padding: 50px 30px;
 }
 h1{
     text-align: center;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: normal;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
-.item{
-    display: flex;
-    margin-bottom: 22px;
+.wrap{
+    max-width: 720px;
+    margin: 0 auto;
 }
-.label{
-    width: 240px;
-    flex-shrink: 0;
+.line{
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px;
+}
+.title{
+    white-space: nowrap;
     text-align: right;
-    padding-right: 14px;
 }
-.value{
-    flex: 1;
-    word-break: normal;
-    line-height: 1.75;
+.content{
+    line-height: 1.8;
 }
 </style>
 </head>
 <body>
-<h1>检测报告详情</h1>
+<div class="wrap">
+    <h1>检测报告详情</h1>
 
-<div class="item">
-    <div class="label">检测机构公司:</div>
-    <div class="value">四川省建筑工程质量检测中心有限公司</div>
+    <div class="line">
+        <div class="title">检测机构公司:</div>
+        <div class="content">四川省建筑工程质量检测中心有限公司</div>
+    </div>
+    <div class="line">
+        <div class="title">工程名称:</div>
+        <div class="content">成渝中线高铁简州站综合交通枢纽一体化项目（一期）项目简州站城市交通中心（GTC）及配套工程</div>
+    </div>
+    <div class="line">
+        <div class="title">委托单位:</div>
+        <div class="content">成都市简州新城投资集团有限公司</div>
+    </div>
+    <div class="line">
+        <div class="title">报告编号:</div>
+        <div class="content">MAT/X7/2026-189092</div>
+    </div>
+    <div class="line">
+        <div class="title">报告日期:</div>
+        <div class="content">2026-07-14</div>
+    </div>
+    <div class="line">
+        <div class="title">检测结果:</div>
+        <div class="content">合格</div>
+    </div>
+    <div class="line">
+        <div class="title">资质类别:</div>
+        <div class="content">见证取样</div>
+    </div>
+    <div class="line">
+        <div class="title">见证人:</div>
+        <div class="content">杨国梁</div>
+    </div>
+    <div class="line">
+        <div class="title">送样人:</div>
+        <div class="content">王靖</div>
+    </div>
+    <div class="line">
+        <div class="title">工程监督号:</div>
+        <div class="content">DB-ZJ-2025-0058</div>
+    </div>
+    <div class="line">
+        <div class="title">工程地址:</div>
+        <div class="content">四川省成都市东部新区简州新城</div>
+    </div>
+    <div class="line">
+        <div class="title">检测项目:</div>
+        <div class="content">普通混凝土抗压试块</div>
+    </div>
+    <div class="line">
+        <div class="title">检测结论:</div>
+        <div class="content">/</div>
+    </div>
+    <div class="line">
+        <div class="title">检测数据:</div>
+        <div class="content">1:破坏荷载:570.90,1:抗压强度单个值:54.2。2:破坏荷载:627.53,2:抗压强度单个值:59.6。3:破坏荷载:563.64,3:抗压强度单个值:53.5。抗压强度代表值:55.8</div>
+    </div>
+    <div class="line">
+        <div class="title">备注:</div>
+        <div class="content">检测地址：四川省成都市东部新区福田街道龙游村13组54、56号。</div>
+    </div>
 </div>
-
-<div class="item">
-    <div class="label">工程名称:</div>
-    <div class="value">成渝中线高铁简州站综合交通枢纽一体化项目（一期）项目简州站城市交通中心（GTC）及配套工程</div>
-</div>
-
-<div class="item">
-    <div class="label">委托单位:</div>
-    <div class="value">成都市简州新城投资集团有限公司</div>
-</div>
-
-<div class="item">
-    <div class="label">报告编号:</div>
-    <div class="value">MAT/X7/2026-189092</div>
-</div>
-
-<div class="item">
-    <div class="label">报告日期:</div>
-    <div class="value">2026-07-14</div>
-</div>
-
-<div class="item">
-    <div class="label">检测结果:</div>
-    <div class="value">合格</div>
-</div>
-
-<div class="item">
-    <div class="label">资质类别:</div>
-    <div class="value">见证取样</div>
-</div>
-
-<div class="item">
-    <div class="label">见证人:</div>
-    <div class="value">杨国梁</div>
-</div>
-
-<div class="item">
-    <div class="label">送样人:</div>
-    <div class="value">王靖</div>
-</div>
-
-<div class="item">
-    <div class="label">工程监督号:</div>
-    <div class="value">DB-ZJ-2025-0058</div>
-</div>
-
-<div class="item">
-    <div class="label">工程地址:</div>
-    <div class="value">四川省成都市东部新区简州新城</div>
-</div>
-
-<div class="item">
-    <div class="label">检测项目:</div>
-    <div class="value">普通混凝土抗压试块</div>
-</div>
-
-<div class="item">
-    <div class="label">检测结论:</div>
-    <div class="value">/</div>
-</div>
-
-<div class="item">
-    <div class="label">检测数据:</div>
-    <div class="value">1:破坏荷载:570.90,1:抗压强度单个值:54.2。2:破坏荷载:627.53,2:抗压强度单个值:59.6。3:破坏荷载:563.64,3:抗压强度单个值:53.5。抗压强度代表值:55.8</div>
-</div>
-
-<div class="item">
-    <div class="label">备注:</div>
-    <div class="value">检测地址：四川省成都市东部新区福田街道龙游村13组54、56号。</div>
-</div>
-
 </body>
 </html>
